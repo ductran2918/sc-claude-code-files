@@ -2,6 +2,26 @@
 
 A comprehensive business intelligence solution featuring both Jupyter notebook analysis and a professional Streamlit dashboard for e-commerce sales data with configurable time periods and reusable business metrics calculations.
 
+## 📊 **NEW: Professional Streamlit Dashboard**
+
+The project now includes a professional Streamlit dashboard (`app.py`) with the exact layout and features requested:
+
+### Dashboard Features
+- **Header**: Title with global date range filter
+- **KPI Row**: 4 cards with trend indicators (Total Revenue, Monthly Growth, AOV, Total Orders)
+- **2x2 Charts Grid**: 
+  - Revenue trend line chart (current vs previous period with dashed lines)
+  - Top 10 categories bar chart with blue gradient
+  - US choropleth map showing revenue by state
+  - Satisfaction vs delivery time analysis
+- **Bottom Cards**: Average delivery time and review score with stars
+- **Professional styling with uniform card heights and trend colors**
+
+### Quick Start - Dashboard
+```bash
+streamlit run app.py
+```
+
 ## Overview
 
 This project transforms a basic exploratory data analysis into a professional, maintainable business intelligence framework. The refactored solution provides:
